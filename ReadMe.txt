@@ -6,3 +6,7 @@ This will be the first commit for springcore concepts.
 	- using constructor injection
 	- using references
 -----------------------------------------------------------------------------------------------
+
+
+second commit
+------------------------------------------------------
