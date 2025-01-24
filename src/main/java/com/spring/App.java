@@ -16,8 +16,8 @@ public class App
     	
     	ClassB b = (ClassB) context.getBean("B");
     	
-    	System.out.println(b.getFullname());
-    	System.out.println(b.getA().getName()); //displayed output from a using b class
+    	System.out.println(b.getA().getName()+" "+b.getFullname());
+    	//System.out.println(); //displayed output from a using b class
     	
     }
 }

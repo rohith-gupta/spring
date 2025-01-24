@@ -7,6 +7,9 @@ This will be the first commit for springcore concepts.
 	- using references
 -----------------------------------------------------------------------------------------------
 
-
-second commit
+xml config
+	- property tag
+	- ref tag with one class to other
+	- constructor injection
+	- collection intection
 ------------------------------------------------------
