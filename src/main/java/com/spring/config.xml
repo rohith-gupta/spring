@@ -10,6 +10,15 @@
   	<property name="pass"><value>Aurora</value></property>
 		
 	</bean>
+	<!-- The classB will be having ref of classA so we will be having two properties
+	one property will be from classB and 
+	other property will be ref of A(ref tag is used here and should be given the bean of ClassA name)
+	 -->
+	<bean class="com.spring.ClassB" name="B">
+	<property name="fullname"><value>gupta</value></property>
+	<property name="a"><ref bean="A"></ref></property>
+	</bean>
+	
 	</beans>
 
 

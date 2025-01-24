@@ -13,7 +13,11 @@ public class App
     {
 
     	ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/config.xml");
-    	ClassA a = (ClassA) context.getBean("A");
-        System.out.println( "Hello " + a.getName());
+    	
+    	ClassB b = (ClassB) context.getBean("B");
+    	
+    	System.out.println(b.getFullname());
+    	System.out.println(b.getA().getName()); //displayed output from a using b class
+    	
     }
 }
