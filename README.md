@@ -1,2 +1,2 @@
 # spring
-updating samle code using spring framework
+updating sample code using spring framework
