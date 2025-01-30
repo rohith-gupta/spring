@@ -13,3 +13,5 @@ xml config
 	- constructor injection
 	- collection intection
 ------------------------------------------------------
+
+In this annotation life cycle commit after updating the config.xml properly will all the url's still it is showing the error with the context pachage but the output is good.
