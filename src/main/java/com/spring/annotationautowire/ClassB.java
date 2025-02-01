@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ClassB {
 	
-	// autowired here is used as property injection (byType)
+	// autowired here is used as property injection (byType )
 	ClassA a;
 	String lastname;
 	
