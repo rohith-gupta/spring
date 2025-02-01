@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ClassB {
 	
-	// autowired here is used as property injection (byName)
+	// autowired here is used as property injection (byType)
 	ClassA a;
 	String lastname;
 	
@@ -15,7 +15,7 @@ public class ClassB {
 		return a;
 	}
 
-	// autowired here is used as setter injection (byName)
+	// autowired here is used as setter injection (byType)
 	public void setA(ClassA A) {
 		this.a = A;
 	}
