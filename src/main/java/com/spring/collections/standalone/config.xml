@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           https://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           https://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/util
+                           https://www.springframework.org/schema/util/spring-util.xsd">
+    
+    <!-- Standalone List -->
+    
+    <util:list list-class="java.util.ArrayList" id="lnames">
+    <value>rohith</value>
+    <value>sai</value>
+    <value>sid</value>
+    <value>ram</value>
+    
+    </util:list>
+  	<bean class="com.spring.collections.standalone.Login" name="login">
+  	<property name="names" ref="lnames" />
+	</bean>
+	
+	
+	</beans>
+
+
+
+
