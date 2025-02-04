@@ -14,4 +14,17 @@ xml config
 	- collection intection
 ------------------------------------------------------
 
+ToDO
+
+Standalone - map, properties
+Stereotype annotations - component,value,scope(singleton,prototype)
+SpEl - value("#{}")  ---> {} --> value ref, using static method, static variable, object, boolean
+
+
+-----------------------------------------------------------------------------------------------
+
+Done 
+
+Standalone - map
+
 In this annotation life cycle commit after updating the config.xml properly will all the url's still it is showing the error with the context pachage but the output is good.

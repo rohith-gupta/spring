@@ -20,8 +20,17 @@
     <value>ram</value>
     
     </util:list>
+    
+    <util:map map-class="java.util.HashMap" id="marks">
+    <entry key="maths" value="100" />
+    <entry key="science" value="78" />
+    <entry key="social" value="67" />
+    <entry key="chem" value="96" />
+    </util:map>
+    
   	<bean class="com.spring.collections.standalone.Login" name="login">
   	<property name="names" ref="lnames" />
+  	<property name="marks" ref="marks"/>
 	</bean>
 	
 	
