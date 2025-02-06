@@ -6,12 +6,10 @@ import org.springframework.stereotype.Component;
 
 
 
-@Component
+
 public class ClassA {
 	
-	@Value("rohith")
 	public String name;
-	@Value("qwerty")
 	public String pass;
 	
 	
@@ -25,6 +23,7 @@ public class ClassA {
 	public String getPass() {
 		return pass;
 	}
+	
 	public void setPass(String pass) {
 		this.pass = pass;
 	}

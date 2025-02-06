@@ -7,14 +7,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 
-@Component
+
 public class ClassB {
 	
 	// autowired here is used as property injection (byType )
 	
 	ClassA a;
 	
-	@Value("Gupta")
 	String lastname;
 	
 	public ClassA getA() {
@@ -45,7 +44,7 @@ public class ClassB {
 
 	
 	// autowired here is used as constructor injection (constructor)
-	@Autowired
+	
 	public ClassB(ClassA a) {
 		super();
 		this.a = a;

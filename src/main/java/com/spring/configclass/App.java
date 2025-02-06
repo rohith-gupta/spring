@@ -15,7 +15,7 @@ public class App
 
     	ApplicationContext context = new AnnotationConfigApplicationContext(Configclass.class);
     	
-    	ClassB b = (ClassB) context.getBean("classB");
+    	ClassB b = (ClassB) context.getBean("second");
     	
     	System.out.println(b.getA().getName()+" "+ b.getLastname());
     	
